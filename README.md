@@ -17,16 +17,17 @@ If instance is disabled, ```isEnabled()``` return false every time until user en
     - void Disable()
 
 # Time synchronization
-    This function is useful for synchronization multiples instances with other time than millis().
+    #This function is useful for synchronization multiples instances with other time than millis().
 
     void sync( unsigned long t )
 
 ## Installation
 
 ### Using PlatformIO
-
+```ini
 # or using GIT Url (the latest development version)
 lib_deps = https://github.com/mictronic/SimpleDelay
+```
 
 ## Examples
 
