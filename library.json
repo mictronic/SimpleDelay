@@ -1,7 +1,21 @@
 {
-    "build": {
-        "flags": [
-            "-L."
-        ]
-    }
-}
+    "name": "simpleDelay",
+    "version": "1.0.0",
+    "description": "Non blocking simple delay based on millis() built in arduino . Library has rollover error free. Instances at start are default enabled, could be disabled using Disable(). If instance is disabled, isEnabled() return false every time until user enabling it manually.",
+    "keywords": "delay, timing, arduino, esp32, avr, stm32",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/mictronic/SimpleDelay"
+    },
+    "authors":
+    [
+      {
+        "name": "Mikolaj Garcarek",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
