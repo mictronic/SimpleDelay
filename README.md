@@ -2,7 +2,7 @@
 Non blocking simple delay based on millis() built in arduino .
 Library has rollover error free.
 Instances at start are default enabled, could be disabled using ```Disable()```.
-If instance is disabled, ```isEnabled()``` return false every time until user enabling it manually.
+If instance is disabled, ```isElapsed()``` return false every time, until user enabling it manually.
 
 # State check
 - bool isEnabled()
