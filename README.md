@@ -5,16 +5,16 @@ Instances at start are default enabled, could be disabled using ```Disable()```.
 If instance is disabled, ```isEnabled()``` return false every time until user enabling it manually.
 
 # State check
-   - bool isEnabled()
-   - bool isElapsed()
-   - signed long Remaining()
+- bool isEnabled()
+- bool isElapsed()
+- signed long Remaining()
 
 # Set delay
 
-    - void Set(unsigned long  period)
-    - void Renew(unsigned long  period)
-    - void Enable()
-    - void Disable()
+- void Set(unsigned long  period)
+- void Renew(unsigned long  period)
+- void Enable()
+- void Disable()
 
 # Time synchronization
     #This function is useful for synchronization multiples instances with other time than millis().
