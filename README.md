@@ -33,6 +33,8 @@ lib_deps = https://github.com/mictronic/SimpleDelay
 
 ### Led toggle
 ```cpp
+#include "simpleDelay.h"
+
 simpleDelay ledToggle;
 #define LED 13
 
@@ -57,6 +59,8 @@ void loop()
 
 ### Maintain led at high until switch is pressed
 ```cpp
+#include "simpleDelay.h"
+
 simpleDelay ledTimeout;
 #define LED 13
 #define BUTTON 12
